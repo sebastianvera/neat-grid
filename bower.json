@@ -1,0 +1,27 @@
+{
+  "name": "neat-grid",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Narzerus/neat-grid",
+  "authors": [
+    "Rafael Vidaurre <narzerus@gmail.com>"
+  ],
+  "description": "Bourbon's Neat grid as classes",
+  "main": "grid.scss",
+  "keywords": [
+    "sass",
+    "bourbon",
+    "neat",
+    "grid"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": ">=1.6.0"
+  },
+}
