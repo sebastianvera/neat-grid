@@ -1,4 +1,4 @@
-neat-grid
+Neat Grid
 =========
 
 Bourbon's Neat grid classes because you need them for some reason
