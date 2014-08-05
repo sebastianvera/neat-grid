@@ -6,7 +6,7 @@
     "Rafael Vidaurre <narzerus@gmail.com>"
   ],
   "description": "Bourbon's Neat grid as classes",
-  "main": "grid.scss",
+  "main": "neat-grid.scss",
   "keywords": [
     "sass",
     "bourbon",
