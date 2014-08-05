@@ -21,3 +21,44 @@ Here are some useful grid systems you can look at:
 Why/When to use this
 --------------------
 Class based grid systems are actually quite great, they allow you to easily change the visual structure of your project without having to touch both CSS and HTML for every change. Also, they strongly prevent css style repetition. I'd suggest to use this set of classes if you like how Bourbon works and it's a must have in your project. If maybe you are following a module-focused CSS structure like [SMACSS](http://smacss.com/) or you are using a strongly HTML focused front-end framework like [AngularJs](https://angularjs.org/) or [KnockoutJs](http://knockoutjs.com/).
+
+Installing
+============
+At your main .scss file import the bourbon, neat, and neat-grid libraries in that order
+
+```scss
+// Paths depend on your setup.
+@import <bourbon's path>;
+@import <neats's path>;
+@import <neat-grid's path>;
+
+```
+
+
+How to use
+==========
+Neat Grid is a quite simple set of classes to define columns in your HTML.
+
+A common set of columns
+```html
+<section class="grid-wrap">
+  <div class="grid-6">This is half of the grid space</div>
+  <div class="grid-3">This is 1/4 of the grid space</div>
+  <div class="grid-2">This is 1/6 of the grid space</div>
+  <div class="grid-1">This is 1/12 of the grid space</div>
+</section>
+```
+
+Nested columns
+```html
+<section class="grid-wrap">
+  <div class="grid-6">
+    <div class="grid-2-6">This uses 2 out 6 columns from the parent</div>
+    <div class="grid-4-6">This uses 4 out of 6 columns from the parent</div>
+  </div>
+  
+  <div class="grid-6">
+    Common column using half of the grid
+  </div>
+</section>
+```
