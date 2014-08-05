@@ -26,14 +26,29 @@ Installing
 ============
 At your main .scss file import the bourbon, neat, and neat-grid libraries in that order
 
+Bower
+-----
+```
+bower install neat-grid
+```
+
 ```scss
-// Paths depend on your setup.
-@import <bourbon's path>;
-@import <neats's path>;
-@import <neat-grid's path>;
+@import 'bower_components/bourbon/dist/bourbon';
+@import 'bower_components/neat/app/assets/stylesheets/neat';
+@import 'bower_components/neat-grid/neat-grid';
 
 ```
 
+Manually
+--------
+Copy the neat-grid.scss file to your project, make sure you have bourbon and neat installed.
+
+Then import the files in your main .scss
+```scss
+@import 'path/to/bourbon';
+@import 'path/to/neat';
+@import 'path/to/neat-grid';
+```
 
 How to use
 ==========
